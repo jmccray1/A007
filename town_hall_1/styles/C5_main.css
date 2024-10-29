@@ -1,0 +1,58 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white; /* Set the background color for the HTML */
+}
+
+body {
+    width: 600px; /* Set the width of the body */
+    margin: 0 auto; /* Center the body */
+    border: 3px solid #931420; /* Border color */
+    background-color: #fffded; /* Background color for body */
+}
+
+header {
+    border-bottom: 3px solid #931420; /* Same border as body */
+    padding: 1.5em 0 2em; /* Top and bottom padding */
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%); /* Gradient background */
+}
+
+main {
+    padding: 0 30px; /* Padding for the main element */
+}
+
+h1 {
+    margin: 1em 0; /* Spacing for the heading */
+}
+
+blockquote {
+    font-style: italic; /* Italicize blockquote */
+}
+
+footer {
+    background-color: #931420; /* Match footer with border color */
+    padding: 1em; /* Padding for footer */
+}
+
+footer p {
+    color: white; /* Set font color to white */
+}
+
+/* Add borders and other styling for headings */
+h3 {
+    border-top: 3px solid #931420; /* Top border for h3 */
+    border-bottom: 3px solid #931420; /* Bottom border for h3 */
+    padding: 1em 0; /* Padding for headings */
+}
+
+/* Additional styling for the "Speakers" heading */
+.speakers-heading {
+    border: double 5px #931420; /* Double border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); /* Box shadow */
+    padding: 1em; /* Padding for the heading */
+}
